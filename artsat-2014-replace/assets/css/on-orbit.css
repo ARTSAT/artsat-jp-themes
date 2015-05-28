@@ -1,0 +1,181 @@
+/* line 12, ../scss/on-orbit.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 17, ../scss/on-orbit.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 19, ../scss/on-orbit.scss */
+.clearfix {
+  *zoom: 1; }
+
+/* line 26, ../scss/on-orbit.scss */
+.directLanguageSelect ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  /* line 32, ../scss/on-orbit.scss */
+  .directLanguageSelect ul li {
+    float: left;
+    margin: 0 0 0 10px; }
+
+/* line 42, ../scss/on-orbit.scss */
+body {
+  /*
+  #language {
+    display: none;
+  }*/ }
+  /* line 49, ../scss/on-orbit.scss */
+  body .en {
+    display: none; }
+  /* line 53, ../scss/on-orbit.scss */
+  body a, body a:visited {
+    color: #000; }
+  /* line 58, ../scss/on-orbit.scss */
+  body #border {
+    background-image: none;
+    background-color: #BBB; }
+  /* line 68, ../scss/on-orbit.scss */
+  body #scroll-top a, body #scroll-top a:visited {
+    color: #000; }
+  /* line 73, ../scss/on-orbit.scss */
+  body #mainVisual {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+    /* line 79, ../scss/on-orbit.scss */
+    body #mainVisual img {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -ms-filter: "alpha(opacity=0)";
+      /* IE 8 */
+      position: absolute;
+      border: none;
+      padding: 0;
+      margin: 0;
+      top: 0;
+      left: 0; }
+  /* line 90, ../scss/on-orbit.scss */
+  body #information {
+    margin: 64px 0 40px 0;
+    padding: 0;
+    width: 100%;
+    list-style: none; }
+    /* line 97, ../scss/on-orbit.scss */
+    body #information p {
+      margin: 0;
+      padding: 0; }
+    /* line 102, ../scss/on-orbit.scss */
+    body #information li {
+      margin: 0 0 18px 0;
+      padding: 0;
+      font-size: 14px;
+      line-height: 14px; }
+      /* line 109, ../scss/on-orbit.scss */
+      body #information li .informationBorder {
+        clear: both;
+        width: 100%;
+        height: 1px; }
+        /* line 113, ../scss/on-orbit.scss */
+        body #information li .informationBorder span {
+          display: block;
+          height: 1px;
+          padding: 0; }
+        /* line 118, ../scss/on-orbit.scss */
+        body #information li .informationBorder .left {
+          margin: 0;
+          float: left;
+          width: 200px;
+          background-color: #000; }
+        /* line 124, ../scss/on-orbit.scss */
+        body #information li .informationBorder .right {
+          margin: 0;
+          float: right;
+          widht: 750px;
+          background-color: #BBB; }
+      /* line 132, ../scss/on-orbit.scss */
+      body #information li div {
+        margin: 0 0 8px 0;
+        padding: 0; }
+        /* line 136, ../scss/on-orbit.scss */
+        body #information li div .notice {
+          font-size: 10px;
+          letter-spacing: 0.1em;
+          line-height: 10px; }
+      /* line 142, ../scss/on-orbit.scss */
+      body #information li .left {
+        float: left;
+        font-weight: bold;
+        width: 200px; }
+      /* line 147, ../scss/on-orbit.scss */
+      body #information li .right {
+        float: right;
+        width: 750px; }
+    /* line 153, ../scss/on-orbit.scss */
+    body #information li:before,
+    body #information li:after {
+      content: " ";
+      display: table; }
+    /* line 158, ../scss/on-orbit.scss */
+    body #information li:after {
+      clear: both; }
+    /* line 160, ../scss/on-orbit.scss */
+    body #information li {
+      *zoom: 1; }
+  /* line 167, ../scss/on-orbit.scss */
+  body #conceptTitle {
+    font-weight: bold;
+    font-size: 20px; }
+    /* line 171, ../scss/on-orbit.scss */
+    body #conceptTitle .sub {
+      font-weight: normal;
+      font-size: 14px; }
+  /* line 177, ../scss/on-orbit.scss */
+  body #conceptText {
+    margin: 0 0 80px 0;
+    font-size: 12px; }
+  /* line 182, ../scss/on-orbit.scss */
+  body .credit {
+    font-size: 12px;
+    border-top: 1px solid #BBB;
+    padding: 16px 0 0 0; }
+    /* line 187, ../scss/on-orbit.scss */
+    body .credit .creditCaption {
+      font-size: 14px;
+      font-weight: bold; }
+
+/* line 198, ../scss/on-orbit.scss */
+ul.btn li > a > img {
+  margin: 0; }
+
+/* line 203, ../scss/on-orbit.scss */
+#local-menu-on-orbit {
+  width: 600px;
+  height: auto; }
+  /* line 207, ../scss/on-orbit.scss */
+  #local-menu-on-orbit li {
+    width: 198px;
+    height: 60px;
+    margin: 10px 0 10px 0; }
+    /* line 213, ../scss/on-orbit.scss */
+    #local-menu-on-orbit li a {
+      color: #FFF;
+      line-height: 60px;
+      text-align: center;
+      display: block;
+      width: 100%;
+      height: 100%; }
+    /* line 221, ../scss/on-orbit.scss */
+    #local-menu-on-orbit li a:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      -ms-filter: "alpha(opacity=60)";
+      /* IE 8 */ }
+  /* line 225, ../scss/on-orbit.scss */
+  #local-menu-on-orbit li.center-block {
+    border-left: 1px dotted #666;
+    border-right: 1px dotted #666; }
