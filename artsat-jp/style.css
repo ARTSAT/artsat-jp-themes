@@ -1,0 +1,15 @@
+/**
+  Theme Name: artsat.jp
+  Theme URI: artsat.jp
+  Version: 1.0
+  Author: yang02
+  Author URI: yang02.org
+  Tags: 
+*/
+
+/* Basic (exempt from IE4)
+--------------------------------------------*/
+@import "assets/css/style-reset.css";
+@import "assets/css/main.css";
+@import "assets/css/colorbox.css";
+@import "assets/css/droppy.css";

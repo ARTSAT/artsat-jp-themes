@@ -44,13 +44,13 @@ get_header(); // Loads the header.php template. ?>
                                         <li><a href="/exhibition#phase3"><img src="<?php echo get_template_directory_uri() ?>/img/exhibition/3rd.gif" alt="ARTSAT1:INVADER"></a></li>
                                     <?php }else if($cfs->get('local_navi_list') == 'invader-outline'){ ?>
                                         <li><a href="/project/invader">About</a></li>
-                                        <!--<li><a href="/project/invader/invader-feature">特徴</a></li>-->
-                                        <!--<li><a href="/project/invader/invader-mission">ミッション</a></li>-->
+                                        <li><a href="/project/invader/invader-feature">Feature</a></li>
+                                        <li><a href="/project/invader/invader-mission">Mission</a></li>
                                         <li><a href="/project/invader/invader-specification">Specification</a></li>
-                                        <li><a href="/project/invader/invader-subsystem">Subsystems[in Japanese]</a></li>
+                                        <!--<li><a href="/project/invader/invader-subsystem">Subsystems[in Japanese]</a></li>-->
                                         <li><a href="/project/invader/verification-card">Verification (SWL/QSL) Card</a></li>
                                         <li><a href="/project/invader/cw-format-2">CW Format</a></li>
-                                        <!--<li><a href="/project/invader/3d-model">3Dモデル</a></li>-->
+                                        <li><a href="/project/invader/3d-model">3D Model</a></li>
                                         <li><a href="/project/invader/morikawa">MORIKAWA</a></li>
 
                                     <?php }else if($cfs->get('local_navi_list') == 'despatch'){ ?>

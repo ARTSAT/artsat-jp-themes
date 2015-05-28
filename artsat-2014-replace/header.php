@@ -78,8 +78,10 @@
             <div id="content">
                 <header>
                     <div id="language" class="directLanguageSelect">
+                           
+                            <!-- new tag -for qTranslate X -->
+                            <?php echo qtranxf_generateLanguageSelectCode('image'); ?>
 
-                        <?php echo qtranxf_generateLanguageSelectCode('image'); ?>
                         <div class="clearfix"></div>
                     </div>
 

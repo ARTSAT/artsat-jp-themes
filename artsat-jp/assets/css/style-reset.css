@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* ////////////////////////////////////////
+Reset by Blueprint
+//////////////////////////////////////// */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+margin:0; padding:0; border:0; font-style:inherit; font-size:100%; vertical-align:baseline;
+}
+
+table{
+border-collapse:separate; border-spacing:0;
+}
+
+caption, th, td{
+text-align:left;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+content:"";
+}
+
+blockquote, q{
+quotes:"" "";
+}
+
+a img{
+border:none;
+}
+
+/* ////////////////////////////////////////
+YUI Font CSS 
+//////////////////////////////////////// */
+body {
+font:13px/1.231;
+*font-size:small; /* for IE */
+*font:x-small; /* for IE in quirks mode */
+}
+
+/**
+* Nudge down to get to 13px equivalent for these form elements
+*/ 
+select,
+input,
+button,
+textarea {
+font:99%;
+}
+
+/**
+* To help tables remember to inherit
+*/
+table {
+font-size:inherit;
+font:100%;
+}
+
+/**
+* Bump up IE to get to 13px equivalent for these fixed-width elements
+*/
+pre,
+code,
+kbd,
+samp,
+tt {
+font-family:monospace;
+*font-size:108%;
+line-height:100%;
+}
+
+
+/* ////////////////////////////////////////
+YUI Font CSS 
+[77% = 10px]
+[85% = 11px]
+[93% = 12px] (was 92%)
+[100% = 13px]
+[108% = 14px] (was 107%)
+[116% = 15px] (was 114%)
+[123.1% = 16px] (was 122%)
+[131% = 17px] (was 129%)
+[138.5% = 18px] (was 136%)
+[146.5% = 19px] (was 144%)
+[153.9% = 20px] (was 152%)
+[161.6% = 21px] (was 159%)
+[167% = 22px] <!-- (renders 1px too small in Op Win/Mac, FF/Mac) -->
+[174% = 23px] <!-- (renders 1px too small in Op Win/Mac, FF/Mac) -->
+[182% = 24px] <!-- (renders 1px too small in Op Win/Mac, FF/Mac) -->
+[189% = 25px] <!-- (renders 1px too small in Op Win/Mac, FF/Mac) -->
+[197% = 26px] <!-- (renders 1px too small in Op Win/Mac, FF/Mac) -->
+//////////////////////////////////////// */
