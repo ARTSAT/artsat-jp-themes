@@ -10,12 +10,21 @@ Wordpress-theme for artsat.jp
 
 ```ssh-add```
 
-##clone
-in remote inital install will needs
-
-```fab clone```
-
 
 ##Deploy
 
 ```fab deploy```
+
+##Deploy as a user
+
+To login to remote as another user, add -u option with fab command.
+
+fab will use public_ky at '~/.ssh/id_rsa.pub' (fabfile.py) So you will need login as a correct user.
+
+```fab -u <USERNAME> deploy```
+
+
+##clone (option)
+At first in remote, inital install will needs
+
+```fab clone```
