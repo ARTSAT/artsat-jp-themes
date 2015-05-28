@@ -1,0 +1,18 @@
+/* Basic code - don't modify */
+ 
+  #nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  #nav a { display: block; }
+  #nav ul li ul{ display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #nav ul { line-height: 0; } /* IE6 "fix" */
+  	#nav ul a { zoom: 1; } /* IE6/7 fix */
+    #nav ul li { float: none; }
+    
+/* Everything else is theming */
+ 
+#nav *:hover { background-color: none; }
+#nav ul li.drop:hover { cursor: pointer; }
+#nav ul li ul { top: 30px; border: none; }
+#nav ul li ul li { height: 10px; background: #000; margin-bottom: 1px; padding: 8px 20px 8px 10px; }
+#nav ul li ul li:hover { background: #000; }
+
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
