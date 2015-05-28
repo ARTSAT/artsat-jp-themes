@@ -1,0 +1,120 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.directLanguageSelect ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .directLanguageSelect ul li {
+    float: left;
+    margin: 0 0 0 10px; }
+
+body {
+  background-color: #FFF;
+  color: #000;
+  /*
+  #language {
+    display: none;
+  }*/ }
+  body .en {
+    display: none; }
+  body a, body a:visited {
+    color: #000; }
+  body #border {
+    background-image: none;
+    background-color: #BBB; }
+  body #scroll-top a, body #scroll-top a:visited {
+    color: #000; }
+  body #mainVisual {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+    body #mainVisual img {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -ms-filter: "alpha(opacity=0)";
+      /* IE 8 */
+      position: absolute;
+      border: none;
+      padding: 0;
+      margin: 0;
+      top: 0;
+      left: 0; }
+  body #information {
+    margin: 64px 0 40px 0;
+    padding: 0;
+    width: 100%;
+    list-style: none; }
+    body #information p {
+      margin: 0;
+      padding: 0; }
+    body #information li {
+      margin: 0 0 18px 0;
+      padding: 0;
+      font-size: 14px;
+      line-height: 14px; }
+      body #information li .informationBorder {
+        clear: both;
+        width: 100%;
+        height: 1px; }
+        body #information li .informationBorder span {
+          display: block;
+          height: 1px;
+          padding: 0; }
+        body #information li .informationBorder .left {
+          margin: 0;
+          float: left;
+          width: 200px;
+          background-color: #000; }
+        body #information li .informationBorder .right {
+          margin: 0;
+          float: right;
+          widht: 750px;
+          background-color: #BBB; }
+      body #information li div {
+        margin: 0 0 8px 0;
+        padding: 0; }
+        body #information li div .notice {
+          font-size: 10px;
+          letter-spacing: 0.1em;
+          line-height: 10px; }
+      body #information li .left {
+        float: left;
+        font-weight: bold;
+        width: 200px; }
+      body #information li .right {
+        float: right;
+        width: 750px; }
+    body #information li:before,
+    body #information li:after {
+      content: " ";
+      display: table; }
+    body #information li:after {
+      clear: both; }
+    body #information li {
+      *zoom: 1; }
+  body #conceptTitle {
+    font-weight: bold;
+    font-size: 20px; }
+    body #conceptTitle .sub {
+      font-weight: normal;
+      font-size: 14px; }
+  body #conceptText {
+    margin: 0 0 80px 0;
+    font-size: 12px; }
+  body .credit {
+    font-size: 12px;
+    border-top: 1px solid #BBB;
+    padding: 16px 0 0 0; }
+    body .credit .creditCaption {
+      font-size: 14px;
+      font-weight: bold; }
