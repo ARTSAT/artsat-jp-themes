@@ -11,7 +11,7 @@
     <head>
 	<!--<script src="//j.wovn.io/0" data-wovnio="key=h34vZ"></script>-->
         <meta charset="<?php bloginfo( 'charset' ); ?>">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1,">
         <!--<title><?php wp_title( '|', true, 'right' ); ?></title>-->
 
         <meta name="description" content="「ARTSAT：衛星芸術プロジェクト」は、 地球を周回する「宇宙と地上を結ぶメディア」としての衛星を使って、さまざまな芸術作品の制作を展開していくプロジェクトです。" />
