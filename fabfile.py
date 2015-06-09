@@ -10,10 +10,6 @@ env.forward_agent = True
 deploy_path = '/var/www/artsat.jp/wp-content/themes'
 repo = 'ssh://moxus@git.codebreak.com/moxus/artsat-jp-themes.git'
 
-def clone():
-    with cd(deploy_path):
-        sudo('git clone ' + repo)
-
 def prepare_deploy():
     local('git fetch')
 
