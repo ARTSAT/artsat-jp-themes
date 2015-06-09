@@ -333,7 +333,7 @@ body {
   }
   #menu .wrapper #dismiss {
       top: 75px;
-      position: fixed !important;
+      position: fixed;
       height: 58px;
       width: inherit;
       pointer-events: none;
@@ -418,7 +418,10 @@ body {
     overflow-x: scroll; }
 
   #wrapper {
-    width: 950px; } }
+    width: 950px;
+  }
+}
+
 #wrapper {
   width: 100%;
   opacity: 0;
@@ -446,7 +449,7 @@ body {
 
     }
     #wrapper #content #menu-btn {
-        position: fixed !important;
+        position: fixed;
         height: 58px;
         width: inherit;
         margin-top: 34px;
@@ -796,6 +799,82 @@ abbr[title] {
  */
 .clearfix {
   *zoom: 1; }
+
+
+/*
+  For Smartphone
+*/
+@media screen and (max-width:640px){
+  img{
+    max-width: 100%;
+    height: auto;
+    width: auto;　
+  }
+  #wrapper {
+    width: 100%;
+
+  }
+  #wrapper #content {
+    padding: 5px;
+    width: 95%;
+  }
+  #wrapper #content #content{
+    padding: 0;
+    width: 100%;
+  }
+  #wrapper #content header {
+    width:auto;
+    padding-top: 5px;
+  }
+  #wrapper #content header #border {
+    width: 100%;
+  }
+  #wrapper #content header #branding {
+    overflow: visible;
+    width: 100%;
+  }
+  #wrapper #content header #branding img {
+    max-width: inherit;
+    width: 30%;
+  }
+  #footer .footer-content {
+    width: 95%;
+  }
+  #footer .footer-content img {
+    width: 30%;
+  }
+  #menu .wrapper {
+    padding: 10px;
+    width: 95%;
+  }
+  #wrapper #content #menu-btn {
+    position: absolute;
+    margin-top: 5px;
+    width: 95%;
+  }
+  #wrapper #content #menu-btn img{
+    width: 80%;
+  }
+  #right-box {
+    width: 100%
+  }
+  #menu .wrapper #dismiss {
+    position: absolute;
+    top: 5px;
+  }
+  #menu .wrapper .logo img {
+    width: 30%;
+  }
+  #menu .wrapper #dismiss img {
+    width: 80%;
+  }
+  #menu .wrapper .logo {
+    margin-top: 5px;
+  }
+  .entry-summary p {
+    word-wrap: break-word;
+  }
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
