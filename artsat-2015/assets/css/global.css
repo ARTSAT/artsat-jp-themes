@@ -810,6 +810,9 @@ abbr[title] {
     height: auto;
     width: auto;　
   }
+  iframe {
+    max-width: 100%;
+  }
   #wrapper {
     width: 100%;
 
@@ -873,6 +876,10 @@ abbr[title] {
   }
   .entry-summary p {
     word-wrap: break-word;
+  }
+  #exhibitionArchiveContainer {
+    width: auto;
+    max-width: 100%;
   }
 }
 

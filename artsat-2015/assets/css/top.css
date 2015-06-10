@@ -118,4 +118,21 @@
   #content-count #countup .Timer #TimeLeft {
     font-size: 56px; }
 
+@media screen and (max-width:640px){
+  img{
+    max-width: 100%;
+    height: auto;
+    width: auto;　
+  }
+  #exhibitionArchiveContainer .subtitle {
+    width: 100%;
+  }
+  #newsContainer {
+    margin: auto;
+    margin-left: 0px;
+  }
+  iframe {
+    max-width: 100%;
+  }
+}
 /* //------------------------ countup ------------------------// */
