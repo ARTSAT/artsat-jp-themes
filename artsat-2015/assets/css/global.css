@@ -470,11 +470,12 @@ body {
     #wrapper #content header {
       width: inherit;
       padding-top: 40px;
+      margin-bottom: 90px;
       /* //------------------------ navi-var ------------------------// */ }
       #wrapper #content header #branding {
         width: 25%;
         overflow: hidden;
-        margin-top: -26px; }
+        margin-top: 27px; }
       #wrapper #content header #navi-bar {
         margin: 30px 0 10px 0;
         width: 100%; }
@@ -828,6 +829,7 @@ abbr[title] {
   #wrapper #content header {
     width:auto;
     padding-top: 5px;
+    margin-bottom: 55px;
   }
   #wrapper #content header #border {
     width: 100%;
@@ -835,7 +837,7 @@ abbr[title] {
   #wrapper #content header #branding {
     overflow: visible;
     width: 100%;
-    margin-top: -85px;
+    margin-top: 15px;
   }
   #wrapper #content header #branding img {
     max-width: inherit;
@@ -897,7 +899,7 @@ abbr[title] {
   }
   #language ul#qtranslate-chooser {
     z-index: 2000;
-    margin-top: 75px;
+    margin-top: 18px;
     margin-right: 0px;
     padding-right: 0px;
   }
@@ -905,8 +907,15 @@ abbr[title] {
     z-index: 2000;
   }
   #language {
-    pointer-events: none;
+    pointer-events: auto;
     margin-top: 0px;
+  }
+  #wrapper #content header #navi-bar {
+    display: none;
+    height: 0px;
+  }
+  #left-box {
+    display: none;
   }
 }
 

@@ -138,11 +138,6 @@
                         <div class="btn"><img src="<?php echo get_template_directory_uri() ?>/img/navi/manu-btn.png"></div>
                       </div>
                     </div>
-                    <div id="language" class="directLanguageSelect">
-
-                        <?php echo qtranxf_generateLanguageSelectCode('image'); ?>
-                        <div class="clearfix"></div>
-                    </div>
 
                     <div id="branding">
 
@@ -154,6 +149,12 @@
                         <?php endif ?>
 
                     </div><!-- #branding -->
+
+                    <div id="language" class="directLanguageSelect">
+
+                        <?php echo qtranxf_generateLanguageSelectCode('image'); ?>
+                        <div class="clearfix"></div>
+                    </div>
 
                     <div id="navi-bar">
                         <ul class="row">
