@@ -131,8 +131,8 @@
     margin: auto;
     margin-left: 0px;
   }
-  iframe {
-    max-width: 100%;
+  #countup {
+    word-wrap: break-word;
   }
 }
 /* //------------------------ countup ------------------------// */

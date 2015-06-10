@@ -819,7 +819,7 @@ abbr[title] {
   }
   #wrapper #content {
     padding: 5px;
-    width: 95%;
+    width: 90%;
   }
   #wrapper #content #content{
     padding: 0;
@@ -835,44 +835,58 @@ abbr[title] {
   #wrapper #content header #branding {
     overflow: visible;
     width: 100%;
+    margin-top: -85px;
   }
   #wrapper #content header #branding img {
     max-width: inherit;
     width: 30%;
   }
   #footer .footer-content {
-    width: 95%;
+    width: 90%;
   }
   #footer .footer-content img {
     width: 30%;
   }
   #menu .wrapper {
     padding: 10px;
-    width: 95%;
+    width: 90%;
+  }
+  #wrapper #content #dismiss {
+    top: 22px;
+    width: 100%;
   }
   #wrapper #content #menu-btn {
     position: absolute;
-    margin-top: 5px;
-    width: 95%;
+    margin-top: 15px;
+    width: 90%;
+    z-index: 100;
   }
-  #wrapper #content #menu-btn img{
-    width: 80%;
+  #wrapper #content #menu-btn .content{
+    width: 40px;
+    height: 40px;
   }
   #right-box {
     width: 100%
   }
   #menu .wrapper #dismiss {
     position: absolute;
-    top: 5px;
+    top: 23px;
+  }
+  #menu .wrapper .content {
+    width:42px;
+    height:42px;
+  }
+  #menu .wrapper .content .btn {
+    padding-left: 2px;
   }
   #menu .wrapper .logo img {
     width: 30%;
   }
   #menu .wrapper #dismiss img {
-    width: 80%;
+    width: 100%;
   }
   #menu .wrapper .logo {
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .entry-summary p {
     word-wrap: break-word;
@@ -880,6 +894,19 @@ abbr[title] {
   #exhibitionArchiveContainer {
     width: auto;
     max-width: 100%;
+  }
+  #language ul#qtranslate-chooser {
+    z-index: 2000;
+    margin-top: 75px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  #language ul#qtranslate-chooser li {
+    z-index: 2000;
+  }
+  #language {
+    pointer-events: none;
+    margin-top: 0px;
   }
 }
 
