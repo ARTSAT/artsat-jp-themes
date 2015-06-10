@@ -2,7 +2,7 @@
 
 
         <div id="page-content">
-            <div id="left-box">
+            <div id="left-box" class="archive">
                 <?php
                 /* 現在のカテゴリ－orポストタイプの取得と月別アーカイヴの処理 */
                 //カテゴリー取得
@@ -94,4 +94,3 @@
         </div>
 
 <?php get_footer(); ?>
-
