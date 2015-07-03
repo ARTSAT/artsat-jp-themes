@@ -2,7 +2,6 @@
 
 from fabric.api import sudo, env, cd, run, local
 
-env.hosts = ['vps.artsat.jp']
 env.user = 'moxuse'
 env.key_filename = '~/.ssh/id_rsa.pub'
 env.forward_agent = True
