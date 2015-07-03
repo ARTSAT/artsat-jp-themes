@@ -7,7 +7,7 @@ env.key_filename = '~/.ssh/id_rsa.pub'
 env.forward_agent = True
 #env.shell = "/bin/sh -c"
 deploy_path = '/var/www/artsat.jp/wp-content/themes'
-repo = 'ssh://moxus@git.codebreak.com/moxus/artsat-jp-themes.git'
+repo = 'git@github.com:ARTSAT/artsat-jp-themes.git'
 
 def prepare_deploy():
     local('git fetch')
@@ -15,4 +15,4 @@ def prepare_deploy():
 def deploy():
     prepare_deploy()
     with cd(deploy_path):
-        sudo('git pull mox-origin master')
+        sudo('git pull origin master')
