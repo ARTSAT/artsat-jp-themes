@@ -4,11 +4,16 @@ Wordpress-theme for artsat.jp
 
 
 ####install Fabric deploy tool
-```pip install -r requirements.txt```
+
+```
+pip install -r requirements.txt
+```
 
 ####config key for git repo server with ssh-add
 
-```ssh-add```
+```
+ssh-add
+```
 
 
 ##Deploy
