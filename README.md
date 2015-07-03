@@ -13,7 +13,7 @@ Wordpress-theme for artsat.jp
 
 ##Deploy
 
-```fab deploy```
+```fab --hosts <HOSTNAME> deploy```
 
 ##Deploy as a user
 
