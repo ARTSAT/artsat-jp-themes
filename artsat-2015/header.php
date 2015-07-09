@@ -120,6 +120,7 @@
                   $children = wp_list_pages("echo=0&depth=1&child_of=$id&title_li=<h1><a href=\"/gs/\">GS</a></h1>");
                   $pages = str_replace('<li class="page_item', '<h2><li class="page_item', $children);
                   $pages = str_replace('</li>', '</li></h2>', $pages);
+                  $pages = str_replace('http://artsat.jp/api', 'http://artsat.jp/gs/api/', $pages);
                   echo $pages;
                 ?>
 
