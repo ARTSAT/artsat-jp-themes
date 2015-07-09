@@ -117,7 +117,7 @@
                 <!-- Children of GS -->
                 <?php
                   $id = 77;
-                  $children = wp_list_pages("echo=0&depth=1&child_of=$id&title_li=<h1><a href=\"/project/gs-2\">GS</a></h1>");
+                  $children = wp_list_pages("echo=0&depth=1&child_of=$id&title_li=<h1><a href=\"/gs/\">GS</a></h1>");
                   $pages = str_replace('<li class="page_item', '<h2><li class="page_item', $children);
                   $pages = str_replace('</li>', '</li></h2>', $pages);
                   echo $pages;
