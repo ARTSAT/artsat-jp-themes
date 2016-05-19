@@ -22,9 +22,6 @@ We wish to express our gratitude for support and cooperation of everybody.</h4>
 
                 <div id="countup">
                     <script type="text/javascript">
-                        $(function() {
-                            countUp();
-                        });
                         function countUp() {
                             var startDateTime = new Date();//new Date("February 28,2014 03:37:00");
                             var endDateTime = new Date("December 3,2014 13:22:04");//new Date();
@@ -60,6 +57,7 @@ We wish to express our gratitude for support and cooperation of everybody.</h4>
 				'json');
 */
 			}
+                        countUp();
 		</script>
 
                     <div class="Timer">
