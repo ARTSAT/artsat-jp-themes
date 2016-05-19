@@ -1,13 +1,4 @@
 <?php get_header(); ?>
-  <div class="full-width-banner" id="content-despatch">
-    <h4>ARTSAT Project's work: "ARTSAT1:INVADER” won the Award of Distinction of the Hybrid Art of Prix Ars Electronica 2015.
-We wish to express our gratitude for support and cooperation of everybody.</h4>
-		<h5>ARTSATプロジェクトが「ARTSAT1:INVADER」でアルス・エレクトロニカ2015のハイブリッド・アート部門優秀賞(準グランプリ)を獲得しました。みなさまのご支援と協力に改めて感謝します。</h5>
-    <br>
-    <a href="http://www.aec.at/prix/en/gewinner/#hybridart" target="blank">
-      <img src="<?php echo get_template_directory_uri() ?>/img/top/PX_logo_award_of_distinction_2015.jpg" width="950" height="357">
-    </a>
-  </div>
             <div class="full-width-banner" id="content-despatch">
 		<h1>One small spacecraft for (a) team, one giant leap for art.</h1>
 		<h2>一つのチームにとっては小さな宇宙機だが、芸術にとっては偉大な飛躍だ。</h2>
@@ -122,6 +113,12 @@ We wish to express our gratitude for support and cooperation of everybody.</h4>
                     <img src="<?php echo get_template_directory_uri() ?>/img/top/news.gif" alt="NEWS" />
                 </div>
                 <ul class="news">
+                  <li>
+                    <a href="http://www.aec.at/prix/en/gewinner/#hybridart" target="blank">
+                      <img src="<?php echo get_template_directory_uri() ?>/img/top/PX_logo_award_of_distinction_2015.jpg" width="289" height="108">
+                    </a>
+                  </li>
+
                     <?php
                     query_posts( array( 'post_type' => 'post', 'posts_per_page' => 5, 'post_status' => 'publish' ) );
                     while (have_posts()) : the_post();
