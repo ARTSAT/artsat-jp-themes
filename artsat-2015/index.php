@@ -1,4 +1,30 @@
 <?php get_header(); ?>
+
+        <div id="top__keyvisual">
+            <div class="top__keyvisual--items">
+                <div class="top__keyvisual--item">
+                    <a href="http://space-moere.org" target="_blank">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_01.png">
+                    </a>
+                </div>
+                <div class="top__keyvisual--item">
+                    <a href="http://space-moere.org" target="_blank">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_02.png">
+                    </a>
+                </div>
+                <div class="top__keyvisual--item">
+                    <a href="http://space-moere.org" target="_blank">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_03.png">
+                    </a>
+                </div>
+                <div class="top__keyvisual--item">
+                    <a href="http://space-moere.org" target="_blank">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_04.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
             <div class="full-width-banner" id="content-despatch">
 		<h1>One small spacecraft for (a) team, one giant leap for art.</h1>
 		<h2>一つのチームにとっては小さな宇宙機だが、芸術にとっては偉大な飛躍だ。</h2>
