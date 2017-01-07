@@ -45,6 +45,19 @@ $(function(){
 		}
 	);
 
+	//top key visual slideshow
+
+	$(".top__keyvisual--items > .top__keyvisual--item:gt(0)").hide();
+	
+	setInterval(function() { 
+	  $('.top__keyvisual--item:first')
+	    .fadeOut(2000)
+	    .next()
+	    .fadeIn(2000)
+	    .end()
+	    .appendTo('.top__keyvisual--items');
+	},  6000);
+
 });
 
 
