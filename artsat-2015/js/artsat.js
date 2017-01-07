@@ -16,34 +16,34 @@ $(function(){
 
 	//***グロナビの現在地検出
 	//* 見た通りなんですが、現在地のurlとグロナビのaの中身(第一階層)が同じやつを探して、って感じです。
-	if(location.pathname != "/") {
-                var path = location.pathname.split("/");
-		var target = $('#navi-bar .row li a[href^="/' + (path[1] == 'en' ? path[2] : path[1]) + '"] img');
-		var target_width = target.width();
-		var target_left = target.offset().left - ( ( $(window).width() - 950 ) / 2 );
-		$("img#w-border").stop().animate({
-			marginLeft: target_left,
-			width: target_width
-		}, {duration : 0, easing : "linear"});
-    }
+	// if(location.pathname != "/") {
+ //                var path = location.pathname.split("/");
+	// 	var target = $('#navi-bar .row li a[href^="/' + (path[1] == 'en' ? path[2] : path[1]) + '"] img');
+	// 	var target_width = target.width();
+	// 	var target_left = target.offset().left - ( ( $(window).width() - 950 ) / 2 );
+	// 	$("img#w-border").stop().animate({
+	// 		marginLeft: target_left,
+	// 		width: target_width
+	// 	}, {duration : 0, easing : "linear"});
+ //    }
 
-	//***グロナビのマウスオーバー
-	$("#navi-bar ul.row li a img").hover(
-		function(){
-			var this_width = $(this).width();
-			var this_left = $(this).offset().left - ( ( $(window).width() - 950 ) / 2 );
-			var indx = $("#navi-bar ul.row li img").index(this);
+	// //***グロナビのマウスオーバー
+	// $("#navi-bar ul.row li a img").hover(
+	// 	function(){
+	// 		var this_width = $(this).width();
+	// 		var this_left = $(this).offset().left - ( ( $(window).width() - 950 ) / 2 );
+	// 		var indx = $("#navi-bar ul.row li img").index(this);
 
-			$(this).css("cursor","pointer");
+	// 		$(this).css("cursor","pointer");
 
-			$("img#w-border").stop().animate({
-				marginLeft: this_left,
-				width: this_width,
-			}, {duration : 300, easing : "linear"});
-		},
-		function(){
-		}
-	);
+	// 		$("img#w-border").stop().animate({
+	// 			marginLeft: this_left,
+	// 			width: this_width,
+	// 		}, {duration : 300, easing : "linear"});
+	// 	},
+	// 	function(){
+	// 	}
+	// );
 
 	//top key visual slideshow
 
