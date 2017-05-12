@@ -1,4 +1,4 @@
-#artsat-jp-themes
+# artsat-jp-themes
 
 Wordpress-theme for artsat.jp
 
