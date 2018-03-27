@@ -4,25 +4,10 @@
             <div class="top__keyvisual--items">
                 <div class="top__keyvisual--item">
                     <a href="http://space-moere.org" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_01.jpg">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/copylight-mod.png">
                     </a>
                 </div>
-                <div class="top__keyvisual--item">
-                    <a href="http://space-moere.org" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_02.jpg">
-                    </a>
-                </div>
-                <div class="top__keyvisual--item">
-                    <a href="http://space-moere.org" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_03.jpg">
-                    </a>
-                </div>
-                <div class="top__keyvisual--item">
-                    <a href="http://space-moere.org" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/key_visual_moere_04.jpg">
-                    </a>
-                </div>
-            </div>
+           </div>
         </div>
 
             <div class="full-width-banner" id="content-despatch">
