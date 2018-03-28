@@ -15,7 +15,6 @@ pip install -r requirements.txt
 ssh-add
 ```
 
-
 ## Deploy
 
 ```
@@ -31,3 +30,4 @@ fab will use public_ky at '~/.ssh/id_rsa.pub' (fabfile.py) So you will need logi
 ```
 fab -u <USERNAME> deploy
 ```
+
