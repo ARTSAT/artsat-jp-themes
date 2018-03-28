@@ -548,18 +548,18 @@ body {
 
 #top__keyvisual {
   overflow: hidden;
-  width: 504px;
-  height: 306px; }
+  width: 950px;
+  height: 575px; }
 
 #top__keyvisual .top__keyvisual--items { 
   margin: 0px auto; 
   position: relative; 
-  width: 504px; 
-  height: 306px; }
+  width: 950px; 
+  height: 575px; }
 
 #top__keyvisual .top__keyvisual--item img {
-  width: 504px; 
-  height: 306px;
+  width: 950px; 
+  height: 570px;
 } 
 
 #top__keyvisual .top__keyvisual--items  > #top__keyvisual .top__keyvisual--item { 

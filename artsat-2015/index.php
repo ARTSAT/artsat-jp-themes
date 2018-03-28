@@ -4,7 +4,7 @@
             <div>
                 <div class="top__keyvisual--spacemoere">
                     <a href="http://space-moere.org" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/copylight-mod.png">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/top/key_visuals/space-moere-logo.jpg">
                     </a>
                 </div>
            </div>
