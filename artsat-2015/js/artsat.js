@@ -47,9 +47,9 @@ $(function(){
 
 	//top key visual slideshow
 
-	$(".top__keyvisual--items > .top__keyvisual--item:gt(0)").hide();
-	
-	setInterval(function() { 
+	// $(".top__keyvisual--items > .top__keyvisual--item:gt(0)").hide();
+	/*
+	setInterval(function() {
 	  $('.top__keyvisual--item:first')
 	    .fadeOut(2000)
 	    .next()
@@ -57,7 +57,7 @@ $(function(){
 	    .end()
 	    .appendTo('.top__keyvisual--items');
 	},  6000);
-
+	*/
 });
 
 
