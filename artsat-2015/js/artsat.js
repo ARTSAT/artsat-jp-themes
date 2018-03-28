@@ -1,8 +1,8 @@
 $(function(){
 
-    $('.imageSlideShow').each(function(){
-        new ImageSlideShow($(this));
-    });
+//    $('.imageSlideShow').each(function(){
+//        new ImageSlideShow($(this));
+//    });
 
 	//***ページトップへ戻る
 	$('a[href^=#]').click(function() {
