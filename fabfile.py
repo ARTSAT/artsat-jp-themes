@@ -15,4 +15,4 @@ def prepare_deploy():
 def deploy():
     prepare_deploy()
     with cd(deploy_path):
-        sudo('git pull origin master')
+        run('git pull origin master')
